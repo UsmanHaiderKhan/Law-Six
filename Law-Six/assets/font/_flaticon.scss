@@ -1,0 +1,116 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/05/2019 09:25
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-right-arrow:before { content: "\f100"; }
+.flaticon-last-track-left-arrow:before { content: "\f101"; }
+.flaticon-facebook-logo:before { content: "\f102"; }
+.flaticon-google-plus-logo:before { content: "\f103"; }
+.flaticon-telephone:before { content: "\f104"; }
+.flaticon-email:before { content: "\f105"; }
+.flaticon-placeholder:before { content: "\f106"; }
+.flaticon-mobile-phone:before { content: "\f107"; }
+.flaticon-maps-and-flags:before { content: "\f108"; }
+.flaticon-mail:before { content: "\f109"; }
+.flaticon-shovel:before { content: "\f10a"; }
+.flaticon-wheelbarrow:before { content: "\f10b"; }
+.flaticon-sprinkler:before { content: "\f10c"; }
+.flaticon-dalia:before { content: "\f10d"; }
+.flaticon-left-quote:before { content: "\f10e"; }
+.flaticon-right-quotation-sign:before { content: "\f10f"; }
+.flaticon-internet:before { content: "\f110"; }
+.flaticon-placeholder-filled-point:before { content: "\f111"; }
+.flaticon-old-typical-phone:before { content: "\f112"; }
+.flaticon-global:before { content: "\f113"; }
+.flaticon-home:before { content: "\f114"; }
+.flaticon-phone-receiver:before { content: "\f115"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f116"; }
+.flaticon-envelope:before { content: "\f117"; }
+.flaticon-linkedin-sign:before { content: "\f118"; }
+.flaticon-facebook:before { content: "\f119"; }
+.flaticon-skype-logo:before { content: "\f11a"; }
+.flaticon-pinterest-sign:before { content: "\f11b"; }
+.flaticon-apple:before { content: "\f11c"; }
+.flaticon-balance:before { content: "\f11d"; }
+.flaticon-thief:before { content: "\f11e"; }
+.flaticon-fire:before { content: "\f11f"; }
+.flaticon-bank:before { content: "\f120"; }
+.flaticon-house:before { content: "\f121"; }
+.flaticon-finger:before { content: "\f122"; }
+.flaticon-mortarboard:before { content: "\f123"; }
+.flaticon-foreclosure:before { content: "\f124"; }
+.flaticon-family:before { content: "\f125"; }
+    
+    $font-Flaticon-right-arrow: "\f100";
+    $font-Flaticon-last-track-left-arrow: "\f101";
+    $font-Flaticon-facebook-logo: "\f102";
+    $font-Flaticon-google-plus-logo: "\f103";
+    $font-Flaticon-telephone: "\f104";
+    $font-Flaticon-email: "\f105";
+    $font-Flaticon-placeholder: "\f106";
+    $font-Flaticon-mobile-phone: "\f107";
+    $font-Flaticon-maps-and-flags: "\f108";
+    $font-Flaticon-mail: "\f109";
+    $font-Flaticon-shovel: "\f10a";
+    $font-Flaticon-wheelbarrow: "\f10b";
+    $font-Flaticon-sprinkler: "\f10c";
+    $font-Flaticon-dalia: "\f10d";
+    $font-Flaticon-left-quote: "\f10e";
+    $font-Flaticon-right-quotation-sign: "\f10f";
+    $font-Flaticon-internet: "\f110";
+    $font-Flaticon-placeholder-filled-point: "\f111";
+    $font-Flaticon-old-typical-phone: "\f112";
+    $font-Flaticon-global: "\f113";
+    $font-Flaticon-home: "\f114";
+    $font-Flaticon-phone-receiver: "\f115";
+    $font-Flaticon-twitter-logo-silhouette: "\f116";
+    $font-Flaticon-envelope: "\f117";
+    $font-Flaticon-linkedin-sign: "\f118";
+    $font-Flaticon-facebook: "\f119";
+    $font-Flaticon-skype-logo: "\f11a";
+    $font-Flaticon-pinterest-sign: "\f11b";
+    $font-Flaticon-apple: "\f11c";
+    $font-Flaticon-balance: "\f11d";
+    $font-Flaticon-thief: "\f11e";
+    $font-Flaticon-fire: "\f11f";
+    $font-Flaticon-bank: "\f120";
+    $font-Flaticon-house: "\f121";
+    $font-Flaticon-finger: "\f122";
+    $font-Flaticon-mortarboard: "\f123";
+    $font-Flaticon-foreclosure: "\f124";
+    $font-Flaticon-family: "\f125";
