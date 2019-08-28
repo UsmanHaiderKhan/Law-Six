@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -23,11 +23,11 @@
 
 
 /*
-   
+
     font-family: 'Montserrat', sans-serif;
 
 */
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 html, body {
@@ -38,7 +38,7 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
 }
-/*================================= 
+/*=================================
    Header Section Styling
   =================================*/
 #top-nav {
@@ -76,7 +76,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 #home {
@@ -234,7 +234,7 @@ html, body {
     height: 12px;
     background: #8f9097;
 }
-/*================================= 
+/*=================================
        Abuot Section Styling
   =================================*/
 .about-text {
@@ -248,12 +248,16 @@ html, body {
     color: #000000;
     font-family: 'kalinga';
 }
-/*================================= 
+/*=================================
       Service Section Styling
   =================================*/
 #services {
     padding: 40px 0;
     background-color: #f4f4f4;
+}
+
+.service {
+    padding: 40px 0;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -394,7 +398,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
       Case Section Styling
   =================================*/
 .case-text {
@@ -486,7 +490,7 @@ html, body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-/*================================= 
+/*=================================
      Atttr Section Styling
   =================================*/
 .attr-name {
@@ -570,6 +574,10 @@ html, body {
     font-family: 'kalinga';
 }
 
+#attr .owl-stage {
+    padding: 36px 0;
+}
+
 .image-radius {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -578,6 +586,8 @@ html, body {
 #attr .card {
     background: transparent;
     border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     -webkit-box-shadow: 0px 3px 29px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 29px -6px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 29px -6px rgba(0,0,0,0.75);
@@ -634,7 +644,7 @@ html, body {
     color: #ffffff;
     font-family: 'Cocogoose Pro Light-trial';
 }
-/*=#================================ 
+/*=#================================
        Contact Us Section Styling
   =================================*/
 #contact ::placeholder {
@@ -652,6 +662,7 @@ html, body {
     font-size: 14px;
     color: #202020;
     font-weight: 400;
+    border: none;
     font-family: 'kalinga';
     border-radius: 26px;
     background-color: rgb(240, 240, 240);
@@ -704,7 +715,7 @@ html, body {
     font-family: 'kalinga';
 }
 
-/*=#================================ 
+/*=#================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1456,6 +1467,8 @@ button:focus {
 @media screen and (max-width: 900px) {
     .media-top-justify {
         text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
     .navbar {
@@ -1524,7 +1537,7 @@ button:focus {
 @media screen and (max-width: 800px) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .media-top-justify {
         text-align: center;
     }
@@ -1592,7 +1605,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .mr-2 {
         margin-right: .2rem !important;
     }
@@ -1663,7 +1676,7 @@ button:focus {
 @media screen and (max-width: 411px) {
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     #home .main-banner-text {
         font-size: 28px;
     }
@@ -1683,7 +1696,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     .text {
         top: 32%;
         left: 26%;
